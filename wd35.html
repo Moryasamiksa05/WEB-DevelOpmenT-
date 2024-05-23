@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>css selectors</title>
+    <style>
+        /*.box:first-child{
+            background-color: crimson;
+        }
+        .box::first-line{
+            color: yellow;
+        }
+        .boxes *{
+            color: aqua;
+            border: 2px solid black;
+        }
+        [data-color="primary"]{
+            margin-top: 4px;
+            padding-top: 5px;
+        }*/
+       /* .box:nth-child(odd){
+            background-color: aquamarine;
+        }*/
+        .boxes::before{
+            content: "we are a web developer";
+
+        }
+        .boxes::after{
+content: "we are good guys";
+        }
+        ::selection
+        {
+            background-color: brown;
+            color: violet;
+        }
+        .box::before::first-letter
+            color: peru;
+            font-size:x-large;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div data-color="primary" class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ut quasi perferendis odio autem? Animi maxime, dolores consectetur ab quae, modi eligendi architecto ea laborum eius nobis cumque quam quisquam! Quia ab nulla blanditiis est, quos soluta voluptate earum minima accusamus quam nesciunt distinctio pariatur amet facere? Quidem inventore ut consectetur. Odio, assumenda quibusdam hic ab, dolor adipisci, eligendi dolores numquam voluptas quasi ea sed! Et, expedita? Ducimus exercitationem animi impedit distinctio deleniti hic necessitatibus, tempora ab assumenda, est numquam voluptates expedita quibusdam commodi aliquam asperiores beatae quam iusto. Provident, placeat. Ratione consectetur delectus voluptate minus sit, accusamus sunt ullam voluptatibus, dignissimos earum reprehenderit, qui magni similique? Nam beatae libero iusto aperiam repellendus magnam vero laboriosam, molestiae delectus nobis nulla non dolorum exercitationem eveniet quidem inventore rerum incidunt vitae placeat at! Quo doloremque tempora provident laboriosam cumque voluptates autem consequatur consequuntur dolores. Dicta commodi, eveniet magnam modi enim, repellendus consequuntur mollitia, consequatur facere possimus animi vitae illum nam in necessitatibus esse eius eligendi! Velit dicta, illum rerum, praesentium porro autem, reiciendis fuga incidunt quisquam consectetur vero quasi doloribus delectus atque omnis molestiae voluptatum dolorum iste aut eligendi rem architecto? Aliquid officia beatae expedita laborum molestiae dolorum ex commodi natus autem consectetur velit, eos mollitia porro officiis obcaecati voluptates libero eius eaque animi inventore dolor sed? Placeat incidunt iure neque ea. Qui consequuntur ipsum magni praesentium, autem, expedita voluptates velit aliquid nisi delectus accusamus perferendis nam dolorum, cum quidem veniam. Eius officiis molestiae dicta pariatur voluptatem dignissimos, ipsam beatae at ullam est amet similique laboriosam ratione nemo ea soluta optio reiciendis dolorum error accusamus tempore rem itaque. Repudiandae fugiat quisquam magni sequi nesciunt, tempore consequatur libero cupiditate ad eveniet sit deserunt, architecto quam quia ipsum, perferendis nam dignissimos iure possimus! Quasi necessitatibus soluta veritatis non a ut consequatur voluptatem numquam recusandae. Reprehenderit magnam tempora adipisci sint corrupti! Quibusdam deserunt iure culpa atque consequatur, rerum quia fuga provident nemo eligendi illum harum officia. Doloribus incidunt aperiam voluptatem possimus magnam atque laudantium facere quibusdam corrupti numquam harum iusto voluptate laborum, nihil perspiciatis doloremque id deserunt neque quasi expedita illum in! Illo facere enim cupiditate? Non quos natus incidunt laudantium iste, hic debitis illum ducimus, nemo inventore quisquam perferendis quis harum repellat ullam aperiam explicabo deleniti beatae aspernatur quia provident magnam! Eveniet veritatis error minus nobis cum sed. Quae beatae officiis mollitia illo at cupiditate, tenetur delectus fugiat minima rem reprehenderit quidem similique alias?</div>
+        <div class="box">Hey i am a box</div>
+        <div class="box">Hey i am a box</div>
+        <div class="box">Hey i am a box</div>
+    </div>
+</body>
+</html>

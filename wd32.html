@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multicolor websites using css variables</title>
+    <style>
+        :root{
+            --primary-color:rgb(105, 0, 128);
+           --text-color:rgb(255, 208, 0);
+           --secondary-color:rgb(31, 136, 165)
+
+        }
+        body{
+            background-color: var(--secondary-color);
+        }
+ul li{
+    list-style: none;
+}
+ul li{
+    display: inline;
+    padding: 23px;
+    color:var(--text-color);
+    
+}
+nav{
+    background-color:var(--primary-color);
+    padding: 12px 0;
+    font-weight: bolder;
+    
+}
+ul li a{
+    color:var(--text-color);
+    text-decoration: none; 
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Contact</a></li>
+                <li><a href="/">Follow us</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
